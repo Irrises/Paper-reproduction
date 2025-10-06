@@ -1,0 +1,7 @@
+# configs/mnist.yaml
+defaults:
+  - base.yaml
+
+dataset:
+  name: "MNIST"
+  root: "./dataset"

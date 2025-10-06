@@ -2,9 +2,9 @@
 import torch
 import torch.nn as nn
 
-class VarationalAutoencoder(nn.Module):
+class VariationalAutoencoder(nn.Module):
     def __init__(self, image_size, input_channel, device, latent_dim=2):
-        super(VarationalAutoencoder, self).__init__()
+        super(VariationalAutoencoder, self).__init__()
         self.latent_dim = latent_dim
         self.image_size = image_size
         self.device = device
